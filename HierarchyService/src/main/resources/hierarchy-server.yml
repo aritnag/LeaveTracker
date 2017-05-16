@@ -1,0 +1,14 @@
+# Spring properties
+spring:
+  application:
+     name: hierarchy-service
+
+# Discovery Server Access
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+# HTTP Server
+server:
+  port: 8933   # HTTP (Tomcat) port
